@@ -16,26 +16,37 @@
     width: 80px; 
     height: auto;
 }
+
+body {
+    background-color: #020202;
+    color: #333;
+}
+
 header {
     background-color: #333;
     color: rgb(255, 255, 255);
-    padding: 30px 0;
+    padding: 50px 100px;
     text-align: center;
     justify-content: center;
+}
+
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     padding: 20px;
-    position: sticky;
 }
 
 nav a:hover {
@@ -43,25 +54,36 @@ nav a:hover {
     border-radius: 5px;
 }
 
+section {
+    max-width: auto;
+    column-width: auto;
+    margin: auto;
+   text-align:center;
+}
+
 .home {
     background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
+    padding: 100px;
 }
 
 .about {
-
     background-color: #e0e0e0;
-    padding: 20px;
+    padding: 100px;
+    
+}
+
+.contact {
+    background-color: #d0d0d0;
+    padding: 100px;
     text-align: center;
 }
 
 .content-images {
-    flex-direction : row;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    gap: 20px;
-    padding: 20px;
+    gap: 30px;
+    background-size: 200px 200px;
 }
 
 #creatine:hover {
@@ -69,11 +91,28 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 
+#protein:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#preworkout:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .contact {
     background-color: #d0d0d0;
-    padding: 20px;
+    padding: 100px;
     text-align: center;
     list-style-type: none;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px;
 }
 
 form {
