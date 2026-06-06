@@ -78,8 +78,9 @@ section {
     text-align: center;
 }
 
-.content-images {
+.home-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     gap: 30px;
@@ -108,11 +109,37 @@ section {
     list-style-type: none;
 }
 
-.footer {
+footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 100px;
+}
+
+
+.products {
+    background-color: #e0e0e0;
+    padding: 100px;
+    text-align: center;
+}
+
+.product-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    height: auto;
 }
 
 form {
@@ -129,7 +156,9 @@ form {
     padding: 20px;
     text-align: center;
     margin: 0px auto;
+    height: 1000px;
 }
+
 .form-title {
     font-size: 24px;
     margin-bottom: 20px;
