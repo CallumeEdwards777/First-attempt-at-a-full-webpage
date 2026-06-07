@@ -135,11 +135,41 @@ footer {
 .card {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 20px;
     width: auto;
     text-align: center;
     border-radius: 5px;
     height: auto;
+}
+
+.ourstory1 {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+
+.ourstory2 {
+    display:flex;
+    flex-direction:column;
+    background-color: #e0e0e0;
+    padding:100px;
+}
+
+.ourstory3 {
+    display:flex;
+    flex-direction:column;
+    background-color: #d0d0d0;
+    padding:100px;
+}
+
+.ourstoryimg {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 form {
